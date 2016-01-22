@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Planner</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" class="css">
+  <link rel="stylesheet" href="css/style.css" class="css">
+</head>
+<body>
+  <div class="row" id="first">
+    <div class="col-xs-3">
+      <div>
+        <h1>Daily Planner</h1>
+      </div>
+    </div>
+      <div class="col-xs-7" id="taskField"></div>
+      <div class="col-xs-2">
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Menu
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" id="dropdown">
+              <li value="newItem"><button class="planner" id="newTask">Add Task </button></li>
+              <li value="delete"><button class="planner" id="delTask">Delete</button></li>
+              <!-- <li value="hightlight"><button class="planner" id="Highlight">Highlight checked</button></li> -->
+            </ul>
+          </div>
+      </div>
+    </div>
+
+
+  <div class="outer" id="second">
+    <div class="wrapper" id="bsdf">
+      <!-- <ul id="output"> </ul> -->
+
+
+      <div class="row">
+        <div class="col-xs-3 headRow" style="margin-left: 4.1vw;"></div>
+        <div class="col-xs-3 headRow" style="margin-left: 2.2vw;"></div>
+        <div class="col-xs-3 headRow" style="margin-left: 2.2vw;"></div>
+        <div class="col-xs-3 headRow" style="margin-left: 2.2vw;"></div>
+      </div>
+
+        <div class="row" style="margin-top: 1.5vw;">
+          <div class="col-xs-3 bodyRow" style="margin-left: 4.1vw;">Tuesday</div>
+          <div class="col-xs-3 bodyRow" style="margin-left: 2.2vw;">Wednesday</div>
+          <div class="col-xs-3 bodyRow" style="margin-left: 2.2vw;">Thursday</div>
+          <div class="col-xs-3 bodyRow" style="margin-left: 2.2vw;">Friday</div>
+
+        </div>
+
+        <div class="row ">
+          <div class="col-xs-3 listRow" id="tuesday" style="margin-left: 4.1vw;"></div>
+          <div class="col-xs-3 listRow" id="wednesday" style="margin-left: 2.2vw;"></div>
+          <div class="col-xs-3 listRow" id="thursday"style="margin-left: 2.2vw;"></div>
+          <div class="col-xs-3 listRow" id="friday"style="margin-left: 2.2vw;"></div>
+        </div>
+    </div>
+  </div>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

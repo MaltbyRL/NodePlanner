@@ -1,0 +1,42 @@
+
+#first{
+  background-image: url("http://tracysartstudio.com/wp-content/uploads/2013/04/home-banner-3.jpg");
+  background-size: 100%;
+
+}
+
+#second {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/35/7d/b1/357db162a4d2e9ae036515c14f236ae5.jpg");
+  background-size: 100%;
+  font-family: cursive;
+  font-weight: bolder;
+
+}
+
+.headRow{
+  width: 22vw;
+  height: 5vw;
+  /*border: 3px solid black;*/
+  color: green;
+  /*margin-left: 4vw;*/
+}
+
+.bodyRow{
+  width: 22vw;
+  height: 5vw;
+  /*border: 3px solid black;*/
+  /*margin-left: 4vw;*/
+  color: blue;
+  text-align: center;
+  font-size: 2.5vw;
+
+}
+
+.listRow{
+  width: 22vw;
+  height: 50vw;
+  /*border: 3px solid black;*/
+  /*margin-left: 4vw;*/
+  color: black;
+  font-weight: 2vw;
+}
